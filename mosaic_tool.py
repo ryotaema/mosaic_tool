@@ -14,7 +14,7 @@ class MosaicTool:
         self.history = []     # Undo用の履歴
         self.file_list = []   # 画像ファイルパスのリスト
         self.current_index = 0
-        self.mosaic_ratio = 0.04 # モザイクの粗さ
+        self.mosaic_ratio = 0.06 # モザイクの粗さ
         
         # UI設定
         self.ui_height = 120  # 下部の操作パネルの高さ
